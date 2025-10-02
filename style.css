@@ -1,0 +1,106 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  font-size: 24px;
+  font-weight: 600;
+  vertical-align: middle;
+  padding: 14px 160px 14px 160px;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  padding-right: 0;
+  margin-right: 0;
+  display: inline;
+  padding-left: 160px;
+}
+
+p {
+  color: gray;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  padding: 14px 160px 14px 160px;
+}
+
+.tariff-button {
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.tariff {
+  justify-content: space-between;
+  padding: 24px;
+  margin: 12px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.tariffs-list {
+  display: flex;
+  padding: 14px 160px 14px 160px;
+}
+
+.tariff-pro {
+  background: radial-gradient( farthest-corner at 40px 40px, #FBD5FECC, #FEFFD9, #FFFFFF);
+}
+
+.price {
+  font-size: 32px;
+}
+
+.tariff ul {
+  list-style-position: inside;
+  list-style-image: url(check.png);
+}
+
+.login-button {
+    float: right;
+    vertical-align: auto;
+}
+
+.dropdown-check-list {
+  float: right;
+  padding: 8px;
+  margin-bottom: 16px;
+  margin-right: 160px;
+}
+
+.anchor {
+  padding: inherit;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+}
+
+.dropdown-check-list .items {
+  visibility: collapse;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  padding: inherit;
+}
+
+.dropdown-check-list:hover .items {
+  visibility: visible;
+}
+
+.items {
+  list-style-type: none;
+}
