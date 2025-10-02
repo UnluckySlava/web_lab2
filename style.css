@@ -38,10 +38,13 @@ footer {
   background-color: white;
   border-color: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  vertical-align: bottom;
+  margin-top: auto;
 }
 
 .tariff {
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
   padding: 24px;
   margin: 12px;
   border-radius: 8px;
@@ -69,8 +72,8 @@ footer {
 }
 
 .login-button {
-    float: right;
-    vertical-align: auto;
+  float: right;
+  margin-top: auto;
 }
 
 .dropdown-check-list {
